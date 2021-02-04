@@ -39,7 +39,7 @@ app.post("/", (req, res) => {
 
     const run = async () => {
         try {
-            const response = await mailchimp.lists.batchListMembers("YOUR_LIST_ID", userData);
+            const response = await mailchimp.lists.batchListMembers("YOUR_AUDIENCE_ID", userData);
             console.log(response);
             res.sendFile(__dirname + "/success.html")
         } catch (error) {
