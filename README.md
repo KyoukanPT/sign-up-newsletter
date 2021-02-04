@@ -29,7 +29,7 @@
 
 <hr>
 
-<h3>Browser (After getting keys and id + installing requested npm modules + step 5)</h3>
+<h3>Browser (After getting key and id + installing requested npm modules + step 5)</h3>
 12 - <a href="http://localhost:3000/">http://localhost:3000/</a>
 
 <hr>
