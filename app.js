@@ -32,14 +32,14 @@ app.post("/", (req, res) => {
     
 
     mailchimp.setConfig({
-        apiKey: "YOUR API KEY",
-        server: "YOUR SERVER - EXAMPLE: us1",
+        apiKey: "YOUR_API_KEY",
+        server: "YOUR_SERVER",
     })
 
 
     const run = async () => {
         try {
-            const response = await mailchimp.lists.batchListMembers("YOUR LIST_ID", userData);
+            const response = await mailchimp.lists.batchListMembers("YOUR_LIST_ID", userData);
             console.log(response);
             res.sendFile(__dirname + "/success.html")
         } catch (error) {
