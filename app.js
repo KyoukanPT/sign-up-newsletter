@@ -33,7 +33,7 @@ app.post("/", (req, res) => {
 
     mailchimp.setConfig({
         apiKey: "YOUR_API_KEY",
-        server: "YOUR_SERVER",
+        server: "YOUR_SERVER_PREFIX",
     })
 
 
