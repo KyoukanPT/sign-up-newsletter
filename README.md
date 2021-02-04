@@ -19,12 +19,13 @@
 
 <h3>How to Get and use your API Key + Audience ID</h3>
 6 - Go to this website https://mailchimp.com/ and Register/Sign in<br>
-7 - Follow the instructions of this website - https://support.checkfront.com/hc/en-us/articles/115004180154-Mailchimp-Setup-API-Key<br>
-8 - Copy your API Key on line 13, where it says "YOUR_API_KEY"<br>
-9 - The server is the last 3 characters of your API Key. For example : us6<br>
+7 - Follow the instructions of this website to get your API Key - https://support.checkfront.com/hc/en-us/articles/115004180154-Mailchimp-Setup-API-Key<br>
+8 - Copy your API Key on line 35, where it says "YOUR_API_KEY"<br>
+9 - The Server is the last 3 characters of your API Key. For example : us6. Copy it to the string on line 36, where it says "YOUR_SERVER"<br>
 10 - Follow the instructions of this website to get your Audience ID - https://mailchimp.com/help/find-audience-id/
+11 - Copy your Audience ID on line 42, where it says "YOUR_AUDIENCE_ID"
 
-<strong>DO NOT SHARE YOUR API KEY!</strong>
+<strong>DO NOT SHARE YOUR KEYS AND ID!</strong>
 
 <hr>
 
