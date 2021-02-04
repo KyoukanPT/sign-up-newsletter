@@ -29,7 +29,7 @@
 
 <hr>
 
-<h3>Browser (After installing every requested npm modules + updating API Key and ID values inside app.js + starting node (step 5))</h3>
+<h3>Browser (After getting keys and Id + installing requested npm modules + step 5)</h3>
 12 - <a href="http://localhost:3000/">http://localhost:3000/</a>
 
 <hr>
