@@ -2,13 +2,13 @@
 
 <p>Instructions on how to download the source files and use the App: </p>
 
-<h3>Terminal</h3>
+<h3>Terminal (Chosen directory to clone the files - Recommended --> Desktop)</h3>
 
 1 - git clone https://github.com/KyoukanPT/sign-up-newsletter.git
 
 <hr>
 
-<h3>Project Folder Directory</h3>
+<h3>Project Folder Directory (Terminal)</h3>
 
 2 - npm install express<br>
 3 - npm install body-parser<br>
