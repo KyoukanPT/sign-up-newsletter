@@ -17,7 +17,7 @@
 
 <hr>
 
-<h3>How to Get and use your API Key + Audience ID</h3>
+<h3>How to get and use your API Key + Audience ID</h3>
 6 - Go to this website https://mailchimp.com/ and Register/Sign in<br>
 7 - Follow the instructions of this website to get your API Key - https://support.checkfront.com/hc/en-us/articles/115004180154-Mailchimp-Setup-API-Key<br>
 8 - Paste your API Key on line 35, where it says "YOUR_API_KEY"<br>
