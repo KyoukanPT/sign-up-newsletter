@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const mailchimp = require("@mailchimp/mailchimp_marketing")
+const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 const app = express();
 
@@ -25,38 +25,36 @@ app.post("/", (req, res) => {
             merge_fields: {
                 FNAME: firstName,
                 LNAME: lastName,
-                EMAIL: email,
             }
         }]
-    }
+    };
     
 
     mailchimp.setConfig({
         apiKey: "YOUR_API_KEY",
         server: "YOUR_SERVER_PREFIX",
-    })
+    });
 
 
     const run = async () => {
         try {
             const response = await mailchimp.lists.batchListMembers("YOUR_AUDIENCE_ID", userData);
             console.log(response);
-            res.sendFile(__dirname + "/success.html")
+            res.sendFile(__dirname + "/success.html");
         } catch (error) {
             console.log(error.status);
-            res.sendFile(__dirname + "/failure.html")
+            res.sendFile(__dirname + "/failure.html");
         }
-
-    };
+    }
     run();
-})
+});
 
 
 app.post("/failure.html", (req, res) => {
-    res.redirect("/")
-})
+    res.redirect("/");
+});
 
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Server is up and running!")
+    console.log("Server is up and running!");
 });
