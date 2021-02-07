@@ -44,8 +44,8 @@ app.post("/", (req, res) => {
         } catch (error) {
             console.log(error.status);
             res.sendFile(__dirname + "/failure.html");
-        }
-    }
+        };
+    };
     run();
 });
 
