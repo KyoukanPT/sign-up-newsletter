@@ -29,8 +29,3 @@
 
 <h3>Browser (After getting key and id + step 2 + step 3)</h3>
 10 - <a href="http://localhost:3000/">http://localhost:3000/</a>
-
-<hr>
-
-<h3>Live App</h3>
-https://kyoukanpt-sign-up-newsletter.herokuapp.com/
