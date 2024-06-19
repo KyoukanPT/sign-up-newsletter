@@ -17,7 +17,11 @@
 <h3>Project Folder Directory (Terminal)</h3>
 
 3 - npm install<br>
-4 - node app.js
+4 - npm install <a href="https://expressjs.com/en/starter/installing.html"> Express </a> <br>
+5 - npm install <a href="https://www.npmjs.com/package/body-parser"> Body Parser </a> <br>
+6 - npm install <a href="https://www.npmjs.com/package/@mailchimp/mailchimp_marketing"> Mailchimp Marketing </a> <br>
+7 - npm install <a href="https://www.npmjs.com/package/request"> Request </a> <br>
+8 - node app.js
 
 <hr>
 
