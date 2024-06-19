@@ -21,7 +21,7 @@
 5 - npm install <a href="https://www.npmjs.com/package/body-parser"> Body Parser </a> <br>
 6 - npm install <a href="https://www.npmjs.com/package/@mailchimp/mailchimp_marketing"> Mailchimp Marketing </a> <br>
 7 - npm install <a href="https://www.npmjs.com/package/request"> Request </a> <br>
-8 - node app.js
+8 - node app.js <br>
 
 <hr>
 
@@ -37,5 +37,8 @@
 
 <hr>
 
-<h3>Browser</h3>
-- After all the above steps, go to <a href="http://localhost:3000/">Localhost</a>.
+<h3>How to use the App?</h3>
+<p> - After running the app with Node, go to <a href="http://localhost:3000/">Localhost</a>. </p>
+<p> - The user/client should fill the form with their data and click on the sign up button.</p> 
+<p> - After the sign up is accepted, they will be redirected to a success page that informs them they have successfully subscribed.</p> 
+<p> - In the backend, after each successful subscription request, the subscriber's data will be saved in the user's (the newsletter admin) subscriber's list.</p> 
